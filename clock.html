@@ -243,7 +243,7 @@ const time = {
 // time loop
 const animator = () => {
 	let d = new Date(),
-		 h = d.getHours().toString(),
+		 h = (d.getHours()-1).toString(),
 		 m = d.getMinutes().toString(),
 		 s = d.getSeconds().toString();
 	
